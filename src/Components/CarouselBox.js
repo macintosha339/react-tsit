@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
-import Carousel from 'react-bootstrap/Carousel'
+import Carousel from 'react-bootstrap/Carousel';
+import Image from 'react-bootstrap/Image';
 import laptop from '../assets/laptop.jpg';
 import ipadComputer from '../assets/ipad-computer.jpg';
 import manLaptop from '../assets/manLaptop.jpg';
@@ -10,10 +11,10 @@ export default class CarouselBox extends Component {
         return (
             <Carousel>
                 <Carousel.Item>
-                    <img
+                    <Image
                     className="d-block w-100"
                     src={laptop}
-                    alt="laptop"
+                    fluid
                     />
                     <Carousel.Caption>
                         <h3>C нами компьютеры работают</h3>
