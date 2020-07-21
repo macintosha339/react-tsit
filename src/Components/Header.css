@@ -2,3 +2,6 @@
     justify-content: space-around;
     width: 100%;
 }
+.nav-link {
+    font-weight: 700;
+}

@@ -4,7 +4,7 @@ export default class TechSupport extends Component {
     render() {
         return(
             <div>
-                TechSupport
+                Help Desk
             </div>
         )
     }

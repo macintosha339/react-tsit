@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import { Navbar, Container, NavbarBrand, Nav } from 'react-bootstrap'
-import logo from './logo192.png';
+import { Navbar, Container, Nav } from 'react-bootstrap'
 import './Header.css'
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 
@@ -16,15 +15,6 @@ export default class Header extends Component {
             <div>
                 <Navbar collapseOnSelect expand="md" bg="primary">
                     <Container fluid>
-                        <NavbarBrand href="/">
-                            <img
-                            src={logo}
-                            height="30"
-                            width="30"
-                            className="d-inline-block align-top"
-                            alt="logo"
-                            />
-                        </NavbarBrand> TSIT
                         <Navbar.Toggle aria-controls="responsive-navbar-nav"></Navbar.Toggle>
                         <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="nr-auto">
